@@ -1,4 +1,4 @@
-# algorithms.py
+## algorithms.py
 
 def fcfs(requests, head):
     return requests
@@ -36,3 +36,4 @@ def look(requests, head):
     left = [x for x in data if x < head]
     right = [x for x in data if x >= head]
     return right + left[::-1]
+
